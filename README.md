@@ -5,12 +5,17 @@ This works just the way I want.  The only catch is you have to change the Git
 remote.
 
 
-> git remote -v
+**git remote -v**
+
+```
 origin	git@github-stoic:the-stoic-dev/test-ssh.git (fetch)
 origin	git@github-stoic:the-stoic-dev/test-ssh.git (push)
+```
 
 
-> ~/.ssh/config
+**~/.ssh/config**
+
+```
 Host github-stoic
   User git
   HostName github.com
@@ -20,3 +25,4 @@ Host github.com
   User git
   HostName github.com
   IdentityFile ~/.ssh/id_rsa
+```
